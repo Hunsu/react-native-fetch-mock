@@ -1,7 +1,7 @@
 
-const _status = Symbol('status');
-const _data = Symbol('data');
-const _statusText = Symbol('statusText');
+const _status = 'status';
+const _data = 'data';
+const _statusText = 'statusText';
 
 class Response {
   constructor({
